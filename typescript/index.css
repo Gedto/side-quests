@@ -1,0 +1,22 @@
+#logInput {
+    width: 200px;
+    height: 100px;
+}
+
+#row {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+pre {
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    width: min-content;
+    padding: 5px;
+    flex: 1 0 21%;
+    word-break: break-word;
+    height: 200px;
+    margin: 10px;
+    overflow: auto;
+    font-size: 18px;
+}
